@@ -27,16 +27,22 @@ html, body, #root { height: 100%; }
 
 .input{
     width:200px;
-    height:30px;
+    height:25px;
     border-top-left-radius: 10px;
     border-bottom-left-radius:10px;
     padding:5px;
+    border:1px solid blue;
 }
 
 .Add-to-list{
-    height:30px;
+    height:25px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color:aquamarine;
     color:orangered;
+    border:1px solid green;
+}
+
+.Paragraph{
+    color:beige;
 }

@@ -38,7 +38,7 @@ function ToDolist(){
     <>
       <input className = "input" type="text" value={tekst} placeholder="Write here your list" onChange={(e)=>setTekst(e.target.value)} />
       <button className = "Add-to-list" onClick = {add}>Add to the list</button>
-      <p>Number of the elemnts in the list : {todo.length}</p>
+      <p className = "Paragraph">Number of the elemnts in the list : {todo.length}</p>
         {/*<p>Lista ukończonych zadań :{todo.length - !item.done} </p>*/}
       <ul>
         {todo.map((item)=>(
