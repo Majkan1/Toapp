@@ -17,10 +17,24 @@ html, body, #root { height: 100%; }
 }
 
 .Delete-button{
-    width:70px;
-    height:30px;
+    width:100px;
+    height:20px;
     border:1px solid blue;
-    border-radius:15px;
+    border-radius:5px;
     background-color:antiquewhite;
     color:brown;
+}
+
+.input{
+    width:200px;
+    height:40px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:15px;
+}
+
+.Add-to-list{
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color:aquamarine;
+    color:beige;
 }

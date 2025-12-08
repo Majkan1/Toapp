@@ -36,14 +36,14 @@ function ToDolist(){
   }
   return (
     <>
-      <input type="text" value={tekst} placeholder="Write here your list" onChange={(e)=>setTekst(e.target.value)} />
-      <button onClick = {add}>Add to the list</button>
-      <p>Number of the list : {todo.length}</p>
+      <input className = "input" type="text" value={tekst} placeholder="Write here your list" onChange={(e)=>setTekst(e.target.value)} />
+      <button className = "Add-to-list" onClick = {add}>Add to the list</button>
+      <p>Number of the elemnts in the list : {todo.length}</p>
         {/*<p>Lista ukończonych zadań :{todo.length - !item.done} </p>*/}
       <ul>
         {todo.map((item)=>(
           <li key={item.id}>
-            <span onClick={() => CrossOut(item.id)} style={{ textDecoration: item.done ? "line-through" : "none", cursor: "pointer" }}>
+            <span onClick={() => CrossOut(item.id)} style={{ textDecoration: item.done ? "line-through" : "none", cursor: "pointer",color:"pink"}}>
               {item.text}
             </span>
             <input type="checkbox" checked={item.done} onChange={() => CrossOut(item.id)} />
