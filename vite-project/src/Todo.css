@@ -10,4 +10,15 @@ body{
     height:30px;
     border:1px solid red;
     border-radius:15px;
+    background-color:cadetblue;
+    color:black;
+}
+
+.Delete-button{
+    width:70px;
+    height:30px;
+    border:1px solid blue;
+    border-radius:15px;
+    background-color:antiquewhite;
+    color:black;
 }
