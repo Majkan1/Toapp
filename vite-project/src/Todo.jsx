@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import 'Todo.css'
+import './Todo.css'
 export default function TodoApp(){
     return (
     <>
