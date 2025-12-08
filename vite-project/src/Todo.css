@@ -4,7 +4,8 @@ body{
     align-items:center;
     height:100vh;
 }
-html, body, #root { height: 100%; margin: 0; }
+
+html, body, #root { height: 100%; }
 
 .DeleteAll{
     width:100px;
