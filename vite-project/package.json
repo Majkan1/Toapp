@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://<twoj-login-github>.github.io/<twoje-repo>",
+  "homepage": "https://Majkan1.github.io/Toapp",
   "scripts": {
     "dev": "vite",
     "start": "vite",
